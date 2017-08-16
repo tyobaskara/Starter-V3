@@ -1,0 +1,18 @@
+* {
+    word-break: break-all;
+    &:active,
+    &:focus,
+    &:hover {
+        outline: none;
+    }
+}
+span,label {
+    color: white;
+}
+img {
+    max-width: 100%;
+}
+
+#site-container {
+    width: 100%;
+}

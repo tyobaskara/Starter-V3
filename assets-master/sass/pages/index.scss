@@ -1,0 +1,38 @@
+// body,html {
+//     height: 100%;
+//     overflow-x: hidden;
+// }
+.intro {
+    height: 100%;
+    background: darkgray;
+}
+
+.bg-1 {
+    background: darkslateblue;
+}
+.bg-2 {
+    background: darkgrey;
+}
+
+
+.homepage {
+    h1 {
+        color: green !important;
+    }
+    .parWidth {
+        width: 100px;
+        height: auto;
+        border: 1px solid #a4a4a4;
+        padding: 10px;
+        border-style: inset;
+        background: #f4f4f4;
+        border-radius: 10px;
+    }
+}
+
+.jcf-select {
+    background: darkgray;
+    .jcf-select-opener {
+        background: darkgoldenrod;
+    }
+}
