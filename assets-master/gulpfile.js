@@ -36,97 +36,61 @@ var paths = {
 //FOR ASSETS
 var common = {
     css: [
-        'bower_components/bootstrap/dist/css/bootstrap.min.css',
-        'css/common.scss',
-        'css/Common/*.scss'
+        path.join(__dirname, 'bower_components/bootstrap/dist/css/bootstrap.min.css'),
+        path.join(__dirname, 'css/common.scss')
     ],
     js: [
-        'bower_components/jquery/dist/jquery.min.js',
-        'bower_components/bootstrap/dist/js/bootstrap.min.js',
-        'js/common.js',
-        'js/Common/*.js'
+        path.join(__dirname, 'bower_components/jquery/dist/jquery.min.js'),
+        path.join(__dirname, 'bower_components/bootstrap/dist/js/bootstrap.min.js'),
+        path.join(__dirname, 'js/common.js'),
+        path.join(__dirname, 'js/Common/*.js')
     ]
 };
 var flight = {
     css: [
-        'css/flight.scss'
+        path.join(__dirname, 'css/flight.scss')
     ],
     js: [
-        'js/flight.js',
-        'js/Flight/*.js'
+        path.join(__dirname, 'js/flight.js'),
+        path.join(__dirname, 'js/Flight/*.js')
     ]
 };
 var hotel = {
     css: [
-        'css/hotel.scss'
+        path.join(__dirname, 'css/hotel.scss')
     ],
     js: [
-        'js/hotel.js',
-        'js/Hotel/*.js'
+        path.join(__dirname, 'js/hotel.js'),
+        path.join(__dirname, 'js/Hotel/*.js')
     ]
 };
 var booking = {
     css: [
-        'css/Booking.scss'
+        path.join(__dirname, 'css/Booking.scss')
     ],
     js: [
-        'js/booking.js',
-        'js/Booking/*.js'
+        path.join(__dirname, 'js/booking.js'),
+        path.join(__dirname, 'js/Booking/*.js')
     ]
 };
 var payment = {
     css: [
-        'css/payment.scss'
+        path.join(__dirname, 'css/payment.scss')
     ],
     js: [
-        'js/payment.js',
-        'js/Payment/*.js'
+        path.join(__dirname, 'js/payment.js'),
+        path.join(__dirname, 'js/Payment/*.js')
     ]
 };
 var membership = {
     css: [
-        'css/membership.scss'
+        path.join(__dirname, 'css/membership.scss')
     ],
     js: [
-        'js/membership.js',
-        'js/Membership/*.js'
+        path.join(__dirname, 'js/membership.js'),
+        path.join(__dirname, 'js/Membership/*.js')
     ]
 };
-
-// //FOR GULP TASK
-// var pathCommon = {};
-// pathCommon.css.push(common.css);
-// pathCommon.js.push(common.js);
-
-// var pathFlight = {};
-// var flightcss = common.css.concat(flight.css);
-// var flightjs = common.js.concat(flight.js);
-// pathFlight.css.push(flightcss);
-// pathFlight.js.push(flightjs);
-
-// var pathHotel = {};
-// var hotelcss = common.css.concat(hotel.css);
-// var hoteljs = common.js.concat(hotel.js);
-// pathHotel.css.push(hotelcss);
-// pathHotel.js.push(hoteljs);
-
-// var pathBooking = {};
-// var bookingcss = common.css.concat(booking.css);
-// var bookingjs = common.js.concat(booking.js);
-// pathBooking.css.push(bookingcss);
-// pathBooking.js.push(bookingjs);
-
-// var pathPayment = {};
-// var paymentcss = common.css.concat(payment.css);
-// var paymentjs = common.js.concat(payment.js);
-// pathPayment.css.push(paymentcss);
-// pathPayment.js.push(paymentjs);
-
-// var pathMembership = {};
-// var membershipcss = common.css.concat(membership.css);
-// var membershipjs = common.js.concat(membership.js);
-// pathMembership.css.push(common.concat(membership.css));
-// pathMembership.js.push(common.concat(membership.js));
 
 // HTML task
 gulp.task('html', function() {

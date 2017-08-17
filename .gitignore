@@ -1,5 +1,7 @@
 /assets-master/node_modules
-/assets-master/packages-lock.json
+/assets-master/package-lock.json
+/assets-debug
+/assets-bin
 .DS_Store
 
 # Logs
