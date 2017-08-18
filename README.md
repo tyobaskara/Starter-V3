@@ -1,3 +1,13 @@
-# Starter-v2
-- Multiple Gulp.Src 
-- 1 network request for css &amp; js
+# Starter-v3
+- install node js
+- install git bash / vscode
+- npm install (git bash inside assets-master)
+- npm install bower -g (first time to install bower components)
+- gulp debug (git command inside assets-master)
+- gulp maindebug
+- gulp flightdebug
+- gulp hoteldebug
+- gulp bookingdebug
+- gulp paymentdebug
+- gulp membershipdebug
+- gulp bin (git command inside assets-master)
