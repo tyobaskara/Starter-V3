@@ -3,11 +3,11 @@
 - install git bash / vscode
 - npm install (git bash inside assets-master)
 - npm install bower -g (first time to install bower components)
-- gulp debug (git command inside assets-master)
+- gulp debug (gulp command inside assets-master)
 - gulp maindebug
 - gulp flightdebug
 - gulp hoteldebug
 - gulp bookingdebug
 - gulp paymentdebug
 - gulp membershipdebug
-- gulp bin (git command inside assets-master)
+- gulp bin (gulp command inside assets-master)
