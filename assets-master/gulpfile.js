@@ -291,6 +291,11 @@ gulp.task('debug', ['allDbg', 'html', 'watchMain', 'watchFlight', 'watchHotel', 
     watch(path.join(__dirname, '../views/Pages/*.html'), function() {
         runs('html');
     });
+
+    // browserSync.init({
+    //     watchTask: true,
+    //     proxy: 'revgulp-reservasi.com'  
+    // });
 });
 
 
